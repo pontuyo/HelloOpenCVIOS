@@ -12,4 +12,8 @@
 @interface testViewController : UIViewController
 
 @property (strong, nonatomic)UIImage *image;
+
+@property UIImageView *canvas;
+@property  CGPoint touchPoint;
+
 @end
